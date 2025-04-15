@@ -1,0 +1,12 @@
+.errorWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: red;
+  width: 100%;
+}
+
+.errorText {
+  font-size: 1.3rem;
+  font-weight: bold;
+}

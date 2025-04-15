@@ -1,0 +1,26 @@
+.allBlogs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.allBlogs ul {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  padding: 0rem 3rem 3rem;
+}
+
+.title {
+  font-family: 'Franklin Gothic Medium', sans-serif;
+  font-size: 2.5rem;
+  border-bottom: 4px solid;
+}
+
+@media (max-width: 768px) {
+  .allBlogs ul {
+    grid-template-columns: 1fr;
+  }
+}

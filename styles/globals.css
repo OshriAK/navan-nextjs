@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  --color-white-0: #fff;
+  --color-grey-0: #acb1ac;
+  --color-grey-1: #87848b;
+  --color-grey-2: #252027;
+
+  --color-success-1: #12bd4b;
+  --color-error-1: #a10c4a;
+  --color-pending-1: #4694d8;
+
+  margin: 0;
+  background-color: var(--color-grey-1);
+  color: #252525;
+  font-family: sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
